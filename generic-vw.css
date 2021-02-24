@@ -182,7 +182,7 @@ text-align: center;
 color: var(--white);
 text-decoration: none;
 padding: 16px;
-border: 2px solid;
+border: 2px solid var(--accent);
 line-height: 1;
 text-transform: uppercase;
 font-size: .8125rem;
@@ -191,7 +191,8 @@ transition: all 0.2s ease-in-out 0s;
 }
 .acs-button:hover {
 background-color: var(--accent2);
-color: var(--white)
+color: var(--white);
+border: 2px solid var(--accent2);
 }
 
 /* Button 2 */
@@ -245,7 +246,7 @@ text-align: center;
 color: var(--white);
 text-decoration: none;
 padding: 16px;
-border: 2px solid;
+border: 2px solid var(--accent);
 line-height: 1;
 text-transform: uppercase;
 font-size: .8125rem;
@@ -254,7 +255,8 @@ transition: all 0.2s ease-in-out 0s;
 }
 .acs-button4:hover {
 background-color: var(--accent8);
-color: var(--white)
+color: var(--white);
+border: 2px solid var(--accent8);
 }
 
 /* Button 5 */
