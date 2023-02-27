@@ -1,22 +1,4 @@
-/* Font */
-@font-face {
-font-family: 'vw-head-regular';
-font-weight: 400;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff') format('woff');
-}
-
-@font-face {
-font-family: 'vw-head-bold';
-font-weight: 700;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff') format('woff');
-}
-
-@font-face {
-font-family: 'vw-head-light';
-font-weight: 200;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff') format('woff');
-}
-
+/* OEM Font Embed */
 @font-face {
 font-family: 'vw-text-regular';
 font-weight: 400;
@@ -29,7 +11,36 @@ font-weight: 700;
 src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff') format('woff');
 }
 
+@font-face {
+font-family: 'vw-head-light';
+font-weight: 200;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff') format('woff');
+}
 
+@font-face {
+font-family: 'vw-head-regular';
+font-weight: 400;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'vw-head-bold';
+font-weight: 700;
+src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff') format('woff');
+}
+/* OEM Font Embed */
+
+
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: "vw-text-regular", sans-serif;
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: 'vw-head-bold';
 font-weight: 700;
@@ -86,16 +97,42 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
-.acs-wrapper { 
-font-family: "vw-text-regular", sans-serif;
+
+/* OEM Font Variables */
+.vw-brand-rg {
+font-family: "vw-text-regular" !important; 
+font-weight: 400 !important;
+}
+
+.vw-brand-bd {
+font-family: "vw-text-bold" !important;
+font-weight: 700 !important;
+}
+
+.vw-brand-head-lt {
+font-family: "vw-head-light" !important;
+font-weight: 200 !important;
+}
+
+.vw-brand-head-rg {
+font-family: "vw-head-regular" !important;
+font-weight: 400 !important;
+}
+
+.vw-brand-head-bd {
+font-family: "vw-head-bold" !important;
+font-weight: 700 !important;
 }
 
 .acs-bold {
 font-family: var(--bold-font);   
 font-weight: 700;
 }
+/* OEM Font Variables */
+
 
 
 /* Variables */
@@ -116,6 +153,8 @@ font-weight: 700;
 --dark2: #333333;
 --bold-font: "vw-text-bold", sans-serif;
 }
+/* Variables */
+
 
 
 /* Text Colors */
@@ -137,6 +176,8 @@ color: var(--dark)
 .acs-dark2 {
 color: var(--dark2)
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -164,63 +205,101 @@ color: var(--accent6)
 .acs-accent7 {
 color: var(--accent7)
 }
+/* Accent Colors */
 
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(7,30,80, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(26,57,185, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(7,30,80, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
-background-color: var(--accent4)
+--acs-bg-opacity: 1;
+background-color: var(--accent4);
+background-color: rgba(31,64,146, var(--acs-bg-opacity))
 }
 .acs-bg-accent5 {
-background-color: var(--accent5)
+--acs-bg-opacity: 1;
+background-color: var(--accent5);
+background-color: rgba(17,45,103, var(--acs-bg-opacity))
 }
 .acs-bg-accent6 {
-background-color: var(--accent6)
+--acs-bg-opacity: 1;
+background-color: var(--accent6);
+background-color: rgba(17,45,103, var(--acs-bg-opacity))
 }
 .acs-bg-accent7 {
-background-color: var(--accent7)
+--acs-bg-opacity: 1;
+background-color: var(--accent7);
+background-color: rgba(31,56,92, var(--acs-bg-opacity))
+}
+.acs-bg-accent8 {
+--acs-bg-opacity: 1;
+background-color: var(--accent8);
+background-color: rgba(65,192,239, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(106,118,125, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(241,243,244, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(37,37,37, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(51,51,51, var(--acs-bg-opacity))
 }
-
+/* BG Colors */
 
 
 
 /* Link Accent */
 .acs-link-accent {
-text-decoration: underline;
+font-family: "vw-text-bold" !important;
+font-weight: 700 !important;
+padding-bottom: 0.11rem;
+border-bottom: 1px solid var(--accent);
 color: var(--accent);
+text-decoration: none
 }
 .acs-link-accent:hover {
 color: var(--accent2) !important; 
+border-bottom: 1px solid var(--accent2);
 }
 
 .acs-link-accent2 {
+font-family: "vw-text-bold" !important;
+font-weight: 700 !important;
+padding-bottom: 0.11rem;
+border-bottom: 1px solid var(--accent);
 text-decoration: none;
 color: var(--accent);
 }
 .acs-link-accent2:hover {
 background-color: var(--gray2) !important; 
 }
+/* Link Accent */
 
 
 
