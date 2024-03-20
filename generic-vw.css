@@ -2,31 +2,31 @@
 @font-face {
 font-family: 'vw-text-regular';
 font-weight: 400;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-regular.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-regular.woff') format('woff');
+src: url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-regular.woff2') format('woff2'), url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-regular.woff') format('woff');
 }
 
 @font-face {
 font-family: 'vw-text-bold';
 font-weight: 700;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff') format('woff');
+src: url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff2') format('woff2'), url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwtext-bold.woff') format('woff');
 }
 
 @font-face {
 font-family: 'vw-head-light';
 font-weight: 200;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff') format('woff');
+src: url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff2') format('woff2'), url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-light.woff') format('woff');
 }
 
 @font-face {
 font-family: 'vw-head-regular';
 font-weight: 400;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff') format('woff');
+src: url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff2') format('woff2'), url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-regular.woff') format('woff');
 }
 
 @font-face {
 font-family: 'vw-head-bold';
 font-weight: 700;
-src: url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff2') format('woff2'), url('https://www.vw.com/idhub/etc/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff') format('woff');
+src: url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff2') format('woff2'), url('https://www.vw.com/apps/clientlibs/vwa-ngw18/ngw18-frontend/clientlibs/statics/fonts/vwhead-bold.woff') format('woff');
 }
 /* OEM Font Embed */
 
